@@ -1,6 +1,6 @@
 html, body {
     background-color: rgb(215, 193, 221);
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow Bold', Arial, sans-serif
 }
 
 h1 {
@@ -11,6 +11,10 @@ h1 {
 
 h2, h5, a, span {
     color: rgb(0, 0, 0);
+}
+
+.p-2 {
+    font-size: 15px;
 }
 
 #score-list {
@@ -37,11 +41,6 @@ li::before {
     margin-right: 10px;
     text-align: right;
     direction: rtl;
-}
-
-hr {
-    height: 2px;
-    color: rgb(0, 0, 0);
 }
 
 #scoresTitle {
