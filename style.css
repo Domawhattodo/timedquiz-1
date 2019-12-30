@@ -3,13 +3,13 @@ html, body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-h1, h2, a, span {
-    color: midnightblue;
+h1, h2, h5, a, span {
+    color: rgb(0, 0, 0);
 }
 
 #score-list {
-    font-size: 1.9rem;
-    color: midnightblue;    
+    font-size: 31px;
+    color: rgb(43, 43, 122);   
 
 }
 
@@ -24,20 +24,20 @@ li {
 
 li::before {
     content: "." counter(li);
-    color: midnightblue;
+    color: rgb(43, 43, 122);
     display: inline-block;
-    width: 1rem;
-    margin-left: -1.5rem;
-    margin-right: 0.5rem;
+    width: 16px;
+    margin-left: -24px;
+    margin-right: 10px;
     text-align: right;
     direction: rtl;
 }
 
 hr {
     height: 2px;
-    background-color: midnightblue;
+    color: rgb(228, 27, 27);
 }
 
 #scoresTitle {
-    padding-left: 1rem;
+    padding-left: 16px;
 }

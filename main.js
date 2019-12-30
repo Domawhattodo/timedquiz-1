@@ -58,7 +58,7 @@ function makeQuestions() {
 function displayScore() {
     document.getElementById("quiz").classList.add('d-none');
     document.getElementById("submit-score").classList.remove('d-none');
-    userScoreElement.textContent = "Your final score is " + secondsLeft + ".";
+    userScoreElement.textContent = "FINAL SCORE: " + secondsLeft + ".";
 }
 
 // Event Listeners for Main Buttons
@@ -102,12 +102,13 @@ answerChoices.addEventListener("click", function (event) {
     
     // evaluation of user's answer choices & feedback
     if (answer === event.target.textContent) {   
-        pElement.innerHTML = "Correct!";
-        setTimeout(hideFeedback,1000);
+        pElement.innerHTML = "YES!";
+        setTimeout(hideFeedback,1500);
         showFeedback();   
+        
     } else {
         pElement.innerHTML = "WRONG.";
-        setTimeout(hideFeedback,1000);
+        setTimeout(hideFeedback,1500);
         secondsLeft = secondsLeft - 20;
         showFeedback();
     }    
