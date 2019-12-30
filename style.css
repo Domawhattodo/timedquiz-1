@@ -1,10 +1,10 @@
 html, body {
     background-color: rgb(215, 193, 221);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 h1, h2, a, span {
-    color: ghostwhite;
+    color: antiquewhite;
 }
 
 #score-list {
@@ -23,7 +23,7 @@ li {
 
 li::before {
     content: "." counter(li);
-    color: purple;
+    color: aquamarine;
     display: inline-block;
     width: 1rem;
     margin-left: -1.5rem;
@@ -34,7 +34,7 @@ li::before {
 
 hr {
     height: 2px;
-    background-color: purple;
+    background-color: aquamarine;
 }
 
 #scoresTitle {

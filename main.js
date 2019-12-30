@@ -77,14 +77,13 @@ var newScore = {
         name: userNameInput,
         score: secondsLeft
     };
-    // check if there are scores in local storage first(get it)
-    //if not, make a new/blank array
+    // check if there are scores in local storage first (get it)
+    //if not, make a blank array
     var highScores = JSON.parse(localStorage.getItem("highScores") || "[]");
     // push object into score array
     highScores.push(newScore)
-    // turn objects into an array of strings then put it into local storage
+    // turn objects into an array of strings + put it into local storage
     localStorage.setItem("highScores", JSON.stringify(highScores));
-
 }
 
 function hideFeedback(){
@@ -108,7 +107,7 @@ answerChoices.addEventListener("click", function (event) {
     } else {
         pElement.innerHTML = "WRONG.";
         setTimeout(hideFeedback,1000);
-        secondsLeft = secondsLeft - 10;
+        secondsLeft = secondsLeft - 20;
         showFeedback();
     }    
     makeQuestions();
