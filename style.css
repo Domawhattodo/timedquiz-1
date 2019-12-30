@@ -1,16 +1,22 @@
 html, body {
     background-color: rgb(215, 193, 221);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-h1, h2, h5, a, span {
+h1 {
+    color:  rgb(16, 146, 16);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2, h5, a, span {
     color: rgb(0, 0, 0);
 }
 
 #score-list {
-    font-size: 31px;
-    color: rgb(43, 43, 122);   
-
+    font-size: 21px;
+    color: rgb(7, 7, 68);   
+   
 }
 
 ol {
@@ -35,7 +41,7 @@ li::before {
 
 hr {
     height: 2px;
-    color: rgb(228, 27, 27);
+    color: rgb(0, 0, 0);
 }
 
 #scoresTitle {
