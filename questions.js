@@ -21,6 +21,12 @@ var questions = [
         answer: "Document Object Model"
     },
     {
+        title: "Which of the following is not a valid JavaScript variable name?",
+        choices: ["2names", "_first_and_last_names", "firstAndLast", "None of the above"],
+        answer: "2names"
+    },
+
+    {
         title: "How can you add a comment in a JavaScript?",
         choices: ["'This is a comment", "//This is a comment", "<!--This is a comment-->", "##This is a comment"],
         answer: "//This is a comment"
