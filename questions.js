@@ -2,7 +2,7 @@ var questions = [
     {
         title: "The condition in an if/else statement is enclosed within _______.",
         choices: ["quotes", "square brackets", "parentheses", "curly brackets"],
-        answer: "<script>"
+        answer: "curly brackets"
     },
     {
         title: "Inside which HTML element do we put the JavaScript?",
@@ -12,16 +12,12 @@ var questions = [
     {
         title: "Where is the correct place to insert a JavaScript?",
         choices: ["The <head> section", "The <body> section", "Both the <head> and <body> sections are correct"],
-        answer: "<script src='abc.js'>"
+        answer: "Both the <head> and <body> sections are correct"
     },
-    {
-        title: "How do you write "Hello World" in an alert box?",
-        choices: ["alertBox("Hello World")", "msgBox("Hello World")", "msg("Hello World")", "alert("Hello World")"],
-        answer: "alert("Hello World")"
-    },
+  
     {
         title: "What is a DOM in JavaScript?",
-        choices: ["Data of Mine", "Document of Master", "Data Object Modal", "Document Object Model"],
+        choices: ["Death of Milhouse", "Document on Master", "Data Object Modal", "Document Object Model"],
         answer: "Document Object Model"
     },
     {

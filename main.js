@@ -1,5 +1,5 @@
-var startButton = document.getElementById("startButton");
-var submitButton = document.querySelector("button.submitButton")
+var startBtn = document.getElementById("startBtn");
+var submitBtn = document.querySelector("button.submitBtn")
 var secondsLeft = (questions.length * 20 + 1);
 var timerElement = document.getElementById("timer");
 var submitScoreElement = document.querySelector("#submit-score");
@@ -49,7 +49,7 @@ function makeQuestions() {
         var nextChoice = document.createElement("button");
 
         nextChoice.textContent = choices[q]
-        answerButton = answerChoices.appendChild(nextChoice).setAttribute("class", "p-3 m-1 btn btn-light btn-block");
+        answerBtn = answerChoices.appendChild(nextChoice).setAttribute("class", "p-3 m-1 btn btn-light btn-block");
     }
 }
 
@@ -61,8 +61,8 @@ function displayScore() {
 }
 
 // Event Listeners for Main Buttons
-startButton.addEventListener("click", startTimer);
-submitButton.addEventListener("click", function (event) {
+startBtn.addEventListener("click", startTimer);
+submitBtn.addEventListener("click", function (event) {
     event.stopPropagation();
     addScore();
     
