@@ -78,7 +78,7 @@ var newScore = {
         name: userNameInput,
         score: secondsLeft
     };
-    // check if there are scores in local storage first (get it)
+    // check if there are scores in local storage first and take value
     //if not, make a blank array
     var highScores = JSON.parse(localStorage.getItem("highScores") || "[]");
     // push object into score array
@@ -103,12 +103,12 @@ answerChoices.addEventListener("click", function (event) {
     // evaluation of user's answer choices & feedback
     if (answer === event.target.textContent) {   
         pElement.innerHTML = "YES!";
-        setTimeout(hideFeedback,1500);
+        setTimeout(hideFeedback,1225);
         showFeedback();   
         
     } else {
         pElement.innerHTML = "WRONG.";
-        setTimeout(hideFeedback,1500);
+        setTimeout(hideFeedback,1225);
         secondsLeft = secondsLeft - 20;
         showFeedback();
     }    
