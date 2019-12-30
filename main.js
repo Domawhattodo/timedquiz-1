@@ -87,17 +87,17 @@ var newScore = {
 }
 
 function hideFeedback(){
-    var pElement= document.getElementsByClassName("feedback")[0]
+    var pElement = document.getElementsByClassName("feedback")[0]
     pElement.style.display='none'
 }
 
 function showFeedback(){
-    var pElement= document.getElementsByClassName("feedback")[0]
+    var pElement = document.getElementsByClassName("feedback")[0]
     pElement.removeAttribute('style');
 }
 
 answerChoices.addEventListener("click", function (event) {
-    var pElement= document.getElementsByClassName("feedback")[0]
+    var pElement = document.getElementsByClassName("feedback")[0]
     
     // evaluation of user's answer choices & feedback
     if (answer === event.target.textContent) {   

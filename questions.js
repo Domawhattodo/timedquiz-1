@@ -14,7 +14,7 @@ var questions = [
         choices: ["The <head> section", "The <body> section", "Both the <head> and <body> sections are correct"],
         answer: "Both the <head> and <body> sections are correct"
     },
-  
+
     {
         title: "What is a DOM in JavaScript?",
         choices: ["Death of Milhouse", "Document on Master", "Data Object Modal", "Document Object Model"],
