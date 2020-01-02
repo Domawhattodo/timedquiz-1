@@ -18,6 +18,25 @@ When time runs out and/or all questions are answered, the user is presented with
 
 Your application should also be responsive, ensuring that it adapts to multiple screen sizes.
 
+<b>Minimum Requirements</b>
+
+-Functional, deployed application.
+-GitHub repository with README describing project.
+-The first view of the application displays a button that starts the quiz.
+-Clicking the start button displays a series of questions.
+-Once the quiz begins, a timer starts.
+-If a question is answered incorrectly, additional time is subtracted from the timer.
+-The timer stops when all questions have been answered or the timer reaches 0.
+-After the game ends, the user can save their initials and score to a highscores view using local storage.
+
+<b>Bonus</b>
+
+-Add audio files to alert the user of correct or incorrect answers. Be sure to include the appropriate license.
+-Customize the application theme.
+-Create multiple quizzes and an option for users to choose between them.
+-Add the application to your portfolio.
+
+
 <b>Screenshots</b>
 
 <i>Start page/landing page: </i>
@@ -31,3 +50,4 @@ Your application should also be responsive, ensuring that it adapts to multiple 
 
 <i>Hall of Fame: </i>
 <img src="assets/images/hallOfFame.jpg" alt="screenshots of deployed quiz">
+
