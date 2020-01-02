@@ -1,7 +1,9 @@
-<u>Unit 04 Web APIs Homework: Code Quiz</u>
+<b>Unit 04 Web APIs Homework: Code Quiz</b>
+<br>
 As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment. These assessments are typically a combination of multiple-choice questions and interactive challenges. In this homework assignment, your challenge is to build a code quiz with multiple-choice questions.
 
-<u>Instructions</u>
+<b>Instructions</b>
+<br>
 From scratch, build a timer-based quiz application that stores high scores client-side. Following the common templates for user stories, we can frame this challenge as follows: As a coding bootcamp student I want to take a timed quiz on JavaScript fundamentals that stores high scores so that I can gauge my progress compared to my peers. How do you deliver this? 
 
 Here are some guidelines:
@@ -16,16 +18,16 @@ When time runs out and/or all questions are answered, the user is presented with
 
 Your application should also be responsive, ensuring that it adapts to multiple screen sizes.
 
-<u>Screenshots</u>
+<b>Screenshots</b>
 
-Start page/landing page: 
+<i>Start page/landing page: </i>
 <img src="assets/images/landingPage.jpg" alt="screenshots of deployed quiz">
 
-Quiz in progress: 
+<i>Quiz in progress: </i>
 <img src="assets/images/quizInProgress.jpg" alt="screenshots of deployed quiz">
 
-Finished quiz: 
+<i>Finished quiz: </i>
 <img src="assets/images/finishedQuiz.jpg" alt="screenshots of deployed quiz">
 
-Hall of Fame: 
+<i>Hall of Fame: </i>
 <img src="assets/images/hallOfFame.jpg" alt="screenshots of deployed quiz">
