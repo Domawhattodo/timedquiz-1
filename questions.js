@@ -1,34 +1,57 @@
 var questions = [
     {
-        title: "The condition in an if/else statement is enclosed within _______.",
-        choices: ["quotes", "square brackets", "parentheses", "curly brackets"],
-        answer: "curly brackets"
-    },
-    {
-        title: "Inside which HTML element do we put the JavaScript?",
-        choices: ["<scripting>", "<js>", "<script>", "<javascript>"],
-        answer: "<script>"
-    },
-    {
-        title: "Where is the correct place to insert a JavaScript?",
-        choices: ["The <head> section", "The <body> section", "Both the <head> and <body> sections are correct"],
-        answer: "Both the <head> and <body> sections are correct"
+        title: "This mushroom is also known as Fly Agaric",
+        choices: ["Amanita ocreata", "Amanita cokerii", "Amanita muscaria", "Amanita daucipes"],
+        answer: "Amanita muscaria"
     },
 
     {
-        title: "What is a DOM in JavaScript?",
-        choices: ["Death of Milhouse", "Document on Master", "Data Object Modal", "Document Object Model"],
-        answer: "Document Object Model"
-    },
-    {
-        title: "Which of the following is not a valid JavaScript variable name?",
-        choices: ["2names", "_first_and_last_names", "firstAndLast", "None of the above"],
-        answer: "2names"
+        title: "Which of the following is a common name of Grifola frondosa?",
+        choices: ["Hen of the Woods", "Chariot of Fire", "Griffey's Polypore", "Frondulous maximus"],
+        answer: "Hen of the Woods"
     },
 
     {
-        title: "How can you add a comment in a JavaScript?",
-        choices: ["'This is a comment", "//This is a comment", "<!--This is a comment-->", "##This is a comment"],
-        answer: "//This is a comment"
+        title: "This edible mushroom is prized for it's delicious flavor",
+        choices: ["Amanita bisporigera", "Galerina marginata", "Morchella escuelenta", "Gravidex hombrii"],
+        answer: "Morchella escuelenta"
     },
+
+    {
+        title: "The scientific name for a mushroom's stem is:",
+        choices: ["Stipe", "Stripe", "Stem", "Stipple"],
+        answer: "Stipe"
+    },
+
+    {
+        title: "This mushroom is known as the Chanterelle",
+        choices: ["Helvella", "Cantharellus", "Craterellus", "Laetiporus"],
+        answer: "Cantharellus"
+    },
+
+    {
+        title: "You can die from smelling a poisonous mushroom",
+        choices: ["True", "False"],
+        answer: "False"
+    },
+
+    {
+        title: "You can die from touching a poisonous mushroom",
+        choices: ["True", "False"],
+        answer: "False"
+    },
+
+    {
+        title: "You can die from eating a poisonous mushroom",
+        choices: ["True", "False"],
+        answer: "True"
+    },
+
+    {
+        title: "The mushroom once dubbed 'Psilocybe weilii' is actually which fairly widespread Psilocybe?",
+        choices: ["Psilocybe heimii", "Psilocybe fanaticus", "Psilocybe semilanceata", "Psilocybe caerulescens"],
+        answer: "Psilocybe caerulescens"
+    },
+
+
 ];
