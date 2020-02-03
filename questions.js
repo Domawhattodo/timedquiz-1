@@ -30,24 +30,6 @@ var questions = [
     },
 
     {
-        title: "You can die from smelling a poisonous mushroom",
-        choices: ["True", "False"],
-        answer: "False"
-    },
-
-    {
-        title: "You can die from touching a poisonous mushroom",
-        choices: ["True", "False"],
-        answer: "False"
-    },
-
-    {
-        title: "You can die from eating a poisonous mushroom",
-        choices: ["True", "False"],
-        answer: "True"
-    },
-
-    {
         title: "The mushroom once dubbed 'Psilocybe weilii' is actually which fairly widespread Psilocybe?",
         choices: ["Psilocybe heimii", "Psilocybe fanaticus", "Psilocybe semilanceata", "Psilocybe caerulescens"],
         answer: "Psilocybe caerulescens"
